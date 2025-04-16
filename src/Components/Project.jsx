@@ -22,7 +22,7 @@ const Project = () => {
         </div>
         </div>
         <label className='font-bold text-primary_white text-lg leading-[100%]'  htmlFor="">Your Message</label>
-        <input className=' w-full lg:w-[600px] placeholder:text-primary_white/50 placeholder:font-bold text-primary_white text-[18px] pl-6 pt-4 pb-[237px] rounded-[16px] bg-[#393E46BF] mt-2.5' type="text" placeholder='Message' />
+        <textarea className=' w-full lg:w-[600px] placeholder:text-primary_white/50 placeholder:font-bold text-primary_white text-[18px] pl-6 pt-4 pb-[237px] rounded-[16px] bg-[#393E46BF] mt-2.5' type="text" placeholder='Message' />
         <button className=" flex items-center mt-3 lg:mt-6 py-2.5 px-4 lg:px-8 text-lg font-bold text-primary_white rounded-full bg-[#393E46BF]  hover:bg-secondary_color hover: cursor-pointer hover:duration-[0.4s]">Send Message <span className='text-2xl ml-2.5'><FiSend /></span> </button>
         </div>
             </div>
