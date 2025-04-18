@@ -40,9 +40,9 @@ const Recent = () => {
           Web Design
         </button>
 
-        <div className="mt-5 flex flex-col justify-between gap-3 lg:mt-12 lg:flex-row lg:gap-0">
+        <div className="mt-5 flex flex-col justify-between gap-3 lg:mt-12  lg:gap-0">
           {recentActive == 1 ? (
-            <div  className="mt-5 flex flex-col lg:justify-between gap-3 lg:mt-12 lg:flex-row">
+            <div  className="mt-5 flex flex-col lg:justify-between gap-5 lg:mt-12 lg:flex-row">
               <div className="recent_box px-[52px] py-[61px]">
                 <img src={recentone} alt="" />
               </div>
@@ -54,7 +54,7 @@ const Recent = () => {
               </div>
             </div>
           ) : recentActive == 2 ? (
-            <div className="flex gap-3">
+            <div  className="mt-5 flex flex-col gap-18 lg:mt-12 lg:flex-row">
               <div className="recent_box px-[52px] py-[61px]">
                 <img src={recentone} alt="" />
               </div>
@@ -63,13 +63,13 @@ const Recent = () => {
               </div>
             </div>
           ) : recentActive == 3 ? (
-            <div className="flex gap-3">
+            <div className="mt-5 flex flex-col gap-18 lg:mt-12 lg:flex-row">
               <div className="recent_box px-[52px] py-[61px]">
                 <img src={recentone} alt="" />
               </div>
             </div>
           ) : (
-            <div></div>
+            <div  className="mt-5 flex flex-col gap-18 lg:mt-12 lg:flex-row" ></div>
           )}
         </div>
       </div>
